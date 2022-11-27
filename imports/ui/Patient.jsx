@@ -77,7 +77,7 @@ export const Patient = ({ patients }) => {
 
                 return (
                     <Tooltip title='Eliminar paciente' arrow>
-                        <Button className={styles.deleteButton} color='error' onClick={onDelete} startIcon={<DeleteIcon sx={{margin: '0'}}/>} />
+                        <Button className={styles.deleteButton} color='error' onClick={onDelete} startIcon={<DeleteIcon sx={{ margin: '0' }} />} />
                     </Tooltip>
 
                 )
